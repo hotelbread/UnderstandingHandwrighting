@@ -3,3 +3,19 @@
 #####################################
 
 
+import torch
+import os
+import sys
+import numpy as np
+
+# 1. 데이터셋 생성하기
+
+# 2. 데이터셋 전처리
+
+# 3. validation나누기
+
+# 4. 모델 생성하기
+
+# 5. 모델 학습,평가 및 저장
+
+if __name__ == '__main__':
