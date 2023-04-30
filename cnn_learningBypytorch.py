@@ -4,9 +4,15 @@
 
 
 import torch
+import torchvision
+from torchvision import models, transforms
 import os
 import sys
 import numpy as np
+
+# 토치버전 확인부터
+print("Pytorch Version: ", torch.__version__)
+print('Torchvision Version: ', torchvision.__version__)
 
 # 1. 데이터셋 생성하기
 
