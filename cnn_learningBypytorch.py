@@ -21,6 +21,7 @@ net = models.vgg16(pretrained = use_pretrained)
 net.eval()
 
 # 1. 데이터셋 생성하기
+print('실험중입니다')
 
 
 # 2. 데이터셋 전처리
