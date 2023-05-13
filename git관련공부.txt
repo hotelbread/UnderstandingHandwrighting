@@ -12,6 +12,8 @@ git log --oneline --all --graph : 현재까지의 로그를 어느정도 시각�
 ## 시각적으로 깔끔하게 보이게 할때 사용하는 방법들
 git rebase 중심브랜치명 : 새로운 브랜치를 main의 최신 commit으로 이동
 git merge 새로운 브랜치명 : fast forward merge가 이루어짐
+
+git merge --squash test 테스트용
 혹은
 git merge --squash 새브랜치 : 곁다리로 개발한 브랜치에서의 개발을 새로운 커밋으로 정리해서 main브랜치에 커밋한걸로 표현. 
  * main 브랜치 log를 봤을때 깔끔하게 한줄로 나오게 할때(비쥬얼적인 이유가 강함)
