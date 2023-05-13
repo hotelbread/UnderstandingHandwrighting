@@ -23,3 +23,5 @@ git merge --squash 새브랜치 : 곁다리로 개발한 브랜치에서의 개�
 
 이번엔 진짜 rebase브랜치에서 작성???
 rebase테스트를 위해서 한줄 더 작성함
+
+git merge --squash test 테스트용
